@@ -1,0 +1,35 @@
+@media (min-width: 90rem) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 90rem;
+        /* 240px */
+        margin: 15rem auto;
+        padding: 0;
+    }
+
+    .header {
+        /* 640px */
+        max-width: 40rem;
+        text-align: center;
+    }
+
+    .header .title span {
+        display: block;
+    }
+
+    .content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* 32px */
+        gap: 2rem;
+    }
+
+    .card {
+        /* 400px */
+        max-width: 25rem;
+    }
+}
