@@ -32,4 +32,8 @@
         /* 400px */
         max-width: 25rem;
     }
+
+    .attribution {
+        font-size: 1rem;
+    }
 }
